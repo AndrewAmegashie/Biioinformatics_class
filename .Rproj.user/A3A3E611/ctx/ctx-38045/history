@@ -1,0 +1,22 @@
+Install.packages("BiocManager")
+Install.packages("BiocManager")
+Install.packages("BiocManager")
+install.packages("BiocManager")
+install.packages("Agricolae")
+install.packages("Agricolae")
+install.packages("agricolae")
+install.packages("Gwas")
+install.packages("gwas")
+install.packages("rMVP")
+install.packages("statgenGWAS")
+library(agricolae)
+data(soil)
+# example 1
+analysis<-correlation(soil[,2:8],method="pearson")
+analysis
+# Example 2: correlation between pH, variable 2 and other elements from soil.
+analysis<-with(soil,correlation(pH,soil[,3:8],method="pearson",alternative="less"))
+analysis
+# Example 3: correlation between pH and clay method kendall.
+with(soil,correlation(pH,clay,method="kendall", alternative="two.sided"))
+[Package agricolae version 1.3-7 Index]

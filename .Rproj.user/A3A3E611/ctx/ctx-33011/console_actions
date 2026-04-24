@@ -1,0 +1,10 @@
+{
+    "type": [
+        2,
+        2
+    ],
+    "data": [
+        "\nR version 4.5.3 (2026-03-11 ucrt) -- \"Reassured Reassurer\"\nCopyright (C) 2026 The R Foundation for Statistical Computing\nPlatform: x86_64-w64-mingw32/x64\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under certain conditions.\nType 'license()' or 'licence()' for distribution details.\n\n  Natural language support but running in an English locale\n\nR is a collaborative project with many contributors.\nType 'contributors()' for more information and\n'citation()' on h",
+        "ow to cite R or R packages in publications.\n\nType 'demo()' for some demos, 'help()' for on-line help, or\n'help.start()' for an HTML browser interface to help.\nType 'q()' to quit R.\n\n- Project '~/Bioinformatics_class' loaded. [renv 1.2.0]\n- The project is out-of-sync -- use `\u001B]8;;x-r-run:renv::status()\u0007renv::status()\u001B]8;;\u0007` for details.\n\u001BG3;Restarting R session...\u001Bg"
+    ]
+}
